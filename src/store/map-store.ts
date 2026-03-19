@@ -29,3 +29,5 @@ export const useMapStore = create<MapState>((set) => ({
   setSearchQuery: (query) => set({ searchQuery: query }),
   setShowNearby: (type) => set({ showNearby: type }),
 }));
+
+

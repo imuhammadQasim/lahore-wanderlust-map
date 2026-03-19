@@ -272,3 +272,5 @@ export const typeColors: Record<AttractionType, string> = {
   food: '#059669',
   hotel: '#4F46E5',
 };
+
+

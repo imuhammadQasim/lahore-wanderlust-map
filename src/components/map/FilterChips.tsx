@@ -41,3 +41,4 @@ export function FilterChips() {
     </div>
   );
 }
+
