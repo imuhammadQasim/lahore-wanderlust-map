@@ -87,8 +87,8 @@ export function LahoreMap() {
       </MapContainer>
 
       {/* Top bar with search & filters */}
-      <div className="absolute top-4 left-4 right-4 z-[1000] flex items-start gap-3 pointer-events-none"
-           style={{ left: useMapStore.getState().selectedAttraction ? '376px' : '16px' }}>
+      <div className="absolute top-4 right-4 z-[1000] flex items-start gap-3 pointer-events-none transition-all duration-300"
+           style={{ left: selectedAttraction ? '376px' : '16px' }}>
         <div className="pointer-events-auto flex flex-col gap-3 w-full max-w-md">
           <SearchInput />
           <FilterChips />
